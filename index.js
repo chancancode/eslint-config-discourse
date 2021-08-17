@@ -20,7 +20,7 @@ module.exports = {
       legacyDecorators: true,
     },
   },
-  plugins: ["ember", "discourse-ember"],
+  plugins: ["ember", "discourse-ember", "compat"],
   globals: {
     $: true,
     _: true,
@@ -103,6 +103,7 @@ module.exports = {
     "wrap-iife": [2, "inside"],
     curly: 2,
     "no-duplicate-imports": 2,
+    "compat/compat": "error",
     "sort-imports": [
       "error",
       {

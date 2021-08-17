@@ -7,7 +7,8 @@
     "babel-eslint": "^10.1.0",
     "ember-template-lint": "^2.11.0",
     "ember-template-lint-plugin-discourse": "latest",
-    "eslint": "^6.8.0",
+    "eslint": "^7.7.0",
+    "eslint-plugin-compat": "^3.12.0",
     "eslint-plugin-discourse-ember": "latest",
     "eslint-plugin-ember": "^6.10.0",
     "eslint-plugin-lodash": "^7.1.0",
@@ -29,5 +30,8 @@
   "bugs": {
     "url": "https://github.com/discourse/eslint-config-discourse/issues"
   },
-  "homepage": "https://github.com/discourse/eslint-config-discourse#readme"
+  "homepage": "https://github.com/discourse/eslint-config-discourse#readme",
+  "browserslist": [
+    "ie 6"
+  ]
 }
