@@ -20,6 +20,7 @@ module.exports = {
       legacyDecorators: true,
     },
   },
+  extends: ["plugin:compat/recommended"],
   plugins: ["ember", "discourse-ember", "compat"],
   globals: {
     $: true,
